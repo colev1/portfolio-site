@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Home.scss'
+import headshot from '../headshot.jpg'
 
 class Home extends Component {
     constructor() {
@@ -8,8 +9,11 @@ class Home extends Component {
 
     render() {
         return (
-            <div>
-               COLE VANACORE
+            <div className="home-container">
+                <div>
+                Hi! I'm Cole Vanacore.
+                </div>
+               <img src={headshot} className="headshot"/>
             </div>
         )
     }

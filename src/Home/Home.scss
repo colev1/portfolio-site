@@ -2,3 +2,27 @@ div {
     color: white;
     font-size: 100px;
 }
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+img:hover {
+    width: 100px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: font-size 2s;
+}
+
+.home-container:hover {
+    font-size: 400px;
+    transition: font-size 2s;
+
+}
