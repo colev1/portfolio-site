@@ -6,17 +6,15 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact-container">
-               {/* <img src={headshot} className="headshot"/> */}
+                <ul>
+                <img src={headshot} className="headshot"/>                    
+                    <a href="https://www.linkedin.com/in/cole-vanacore/"> LinkedIn </a>
+                </ul>
                <ul>
-               <a href="https://www.linkedin.com/in/cole-vanacore/"> LinkedIn </a>
+                    <a href="https://www.github.com/colev1"> GitHub </a>
                </ul>
                <ul>
-               <a href="https://www.github.com/colev1"> GitHub </a>
-
-               </ul>
-               <ul>
-               <a href="https://www.turing.io"> Explore Turing! </a>
-
+                    <a href="https://www.turing.io"> Explore Turing! </a>
                </ul>
             </div>
         )
