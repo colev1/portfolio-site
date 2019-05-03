@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import './App.css';
+import './App.scss';
 import Home from './Home/Home';
-import Main from './Main/Main';
 import { Route, NavLink } from 'react-router-dom';
 
 
@@ -13,9 +12,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavLink to='/projects' className='projects'> Projects </NavLink>
-        <NavLink to='/about' className='about'> About Me </NavLink>
-        <NavLink to='/contact' className='contact'> Contact Info </NavLink>
+        <nav className="nav-bar">
+          <NavLink to='/projects' className='projects'> Projects </NavLink>
+          <NavLink to='/about' className='about'> About Me </NavLink>
+          <NavLink to='/contact' className='contact'> Contact Info </NavLink>
+        </nav>
         <Route exact path='/' component={Home} />
       </div>
     );
