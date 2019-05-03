@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Contact.scss'
-import headshot from '../headshot.jpg'
+import headshot from '../images/headshot.jpg'
 
 class Contact extends Component {
     render() {

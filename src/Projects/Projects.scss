@@ -1,10 +1,33 @@
 
 .projects-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // padding: 24px 8px 8px 4px;
 }
 
 article {
   font-size: 20px;
-  background-image: url('../headshot.jpg')
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  min-width: 300px;
+  width: auto;
+  margin: 40px;
+}
+
+.project-1 {
+  background-image: url('../images/adoptr-image.png');
+}
+
+.project-2 {
+  background-image: url('../images/palette-image.png');
+}
+
+.project-3 {
+  background-image: url('../images/movietracker-image.png');
+}
+
+.project-4 {
+  background-image: url('../images/swapibox-image.png');
 }

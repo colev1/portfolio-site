@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 // import './About.scss'
-import headshot from '../headshot.jpg'
+// import headshot from '../images/headshot.jpg'
+
 
 class About extends Component {
     render() {
@@ -8,7 +9,7 @@ class About extends Component {
             <div className="about-container">
                 {/* <div>
                 </div> */}
-               <img src={headshot} className="headshot"/>
+               {/* <img src={headshot} className="headshot"/> */}
             </div>
         )
     }
