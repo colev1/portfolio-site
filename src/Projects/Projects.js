@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './Projects.scss'
+import movietracker from '../movietracker-image.png'
+
 
 class Projects extends Component {
     render() {
@@ -8,6 +10,7 @@ class Projects extends Component {
               <article className="article-1">
                 AdoptR
                 <a href="https://github.com/colev1/cross-poll-fe"> GitHub repo </a>
+                <img src={movietracker}></img>
               </article>
               <article>
                 Palette Picker
