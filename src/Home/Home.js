@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './Header.scss'
+import './Home.scss'
 
-class Header extends Component {
+class Home extends Component {
     constructor() {
         super()
       }
@@ -15,4 +15,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default Home;

@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
-import Header from './Header/Header'
+import Home from './Home/Home';
+import Main from './Main/Main';
+import { Route, NavLink } from 'react-router-dom';
+
 
 class App extends Component {
   constructor() {
@@ -10,7 +13,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <NavLink to='/projects' className='projects'> Projects </NavLink>
+        <NavLink to='/about' className='about'> About Me </NavLink>
+        <NavLink to='/contact' className='contact'> Contact Info </NavLink>
+        <Route exact path='/' component={Home} />
       </div>
     );
   }
