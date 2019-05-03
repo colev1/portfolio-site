@@ -9,9 +9,10 @@ class Home extends Component {
 
     render() {
         return (
-            <div>
-                Hi!
-               I'm Cole Vanacore.
+            <div className="home-container">
+                <div>
+                Hi! I'm Cole Vanacore.
+                </div>
                <img src={headshot} className="headshot"/>
             </div>
         )

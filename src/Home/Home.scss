@@ -4,6 +4,14 @@ div {
 }
 
 img {
-    height: 20vh;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
