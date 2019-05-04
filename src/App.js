@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import './App.scss';
 import Home from './Home/Home';
+import Projects from './Projects/Projects';
 import About from './About/About';
 import Contact from './Contact/Contact';
-import { Route, NavLink } from 'react-router-dom';
+import { Switch, Route, NavLink } from 'react-router-dom';
 
 
 class App extends Component {
@@ -19,9 +20,12 @@ class App extends Component {
           <NavLink to='/projects' className='projects'> Projects </NavLink>
           <NavLink to='/contact' className='contact'> Contact Info </NavLink>
         </nav>
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/contact' component={Contact} />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/projects' component={Projects} />
+        </Switch>
       </div>
     );
   }
