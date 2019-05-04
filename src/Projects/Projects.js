@@ -10,8 +10,8 @@ class Projects extends Component {
         return (
             <div className="projects-container">
               <article className="project-1">
-                <h3>  AdoptR</h3>
-                <a href="https://github.com/colev1/cross-poll-fe"> GitHub repo </a>
+                  <h3>  AdoptR </h3>
+                  <a href="https://github.com/colev1/cross-poll-fe"> GitHub repo </a>
               </article>
               <article className="project-2">
                 <h3>Palette Picker </h3>

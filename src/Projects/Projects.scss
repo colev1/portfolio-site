@@ -11,14 +11,16 @@ article {
   font-size: 20px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 200px;
-  min-width: 300px;
+  min-width: 400px;
   margin: 40px;
+  height: 300px;
+  text-shadow: 1px;
 }
 
 .project-1 {
   background-image: url('../images/adoptr-image.png');
-  height: 400px;
 }
 
 .project-2 {
@@ -31,4 +33,8 @@ article {
 
 .project-4 {
   background-image: url('../images/swapibox-image.png');
+}
+
+.project-picture {
+  max-width: 400px;
 }
