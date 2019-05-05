@@ -8,11 +8,9 @@
   // background-image: url('./images/background.jpg');
   background-size: cover;
   background: linear-gradient(60deg, #5073b7, #1098ab, #07b39b, #68c17f);
-
 }
 
 .nav-bar {
-  // background-color:black;
   width: 100%;
   height: 120px;
   font-size: 36px; 
@@ -22,7 +20,7 @@
   align-items: center;
 }
 
-a {
+.nav-bar>a {
   text-decoration: none;
   color: white;
 }

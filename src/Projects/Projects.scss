@@ -7,7 +7,35 @@
   // background-color: black;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+
+}
+
 article {
+  font-size: 20px;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  // height: 200px;
+  // filter: blur(20%);
+  // border-radius: 20px;
+  // min-width: 400px;
+  // margin: 40px;
+  // height: 300px;
+  // text-shadow: 1px;
+}
+
+.project:hover {
+  box-shadow: 3px 3px 10px rgba(0,0,0,.45);
+  // opacity: .4;
+  filter: blur(1px);
+  // color: black;
+  background: unset;
+}
+
+.project {
   font-size: 20px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,14 +47,6 @@ article {
   margin: 40px;
   height: 300px;
   text-shadow: 1px;
-}
-
-article:hover {
-  box-shadow: 3px 3px 10px rgba(0,0,0,.45);
-  // opacity: .4;
-  filter: blur(1px);
-  color: black;
-  background: unset;
 }
 
 .project-1 {
@@ -47,4 +67,8 @@ article:hover {
 
 .project-picture {
   max-width: 400px;
+}
+
+.fa-github {
+  // font-size: 40px;
 }
