@@ -1,11 +1,27 @@
 .contact-container {
-    // display: flex;
-    // flex-direction: column;
-    // height: 100%;
-    // justify-content: space-around;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    font-size: 20px;
 }
 
-ul {
-    font-size: 20px;
+.headshot {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+  .headshot-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+div {
+    // color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,.45);
+    // filter: blur(7px);
 }
