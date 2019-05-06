@@ -10,9 +10,12 @@ class Home extends Component {
     render() {
         return (
             <div className="home-container">
-                <div>
-                Hi! I'm Cole Vanacore.
-                </div>
+                <p>
+                Hi! I'm Cole.
+                </p>
+                <p>
+                Frontend Web Developer
+                </p>
                <img src={headshot} className="headshot"/>
             </div>
         )
