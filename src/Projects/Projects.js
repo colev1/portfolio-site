@@ -8,6 +8,8 @@ import swapibox from '../images/swapibox-image.png';
 class Projects extends Component {
     render() {
         return (
+          <div>
+            <h1> PROJECTS </h1>
             <div className="projects-container">
               <article>
                   <h3>  AdoptR </h3>
@@ -51,6 +53,7 @@ class Projects extends Component {
                 </div>
               </article>
             </div>
+          </div>
         )
     }
 }
