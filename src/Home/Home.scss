@@ -1,15 +1,18 @@
 div {
-    color: white;
+    // color: white;
     font-size: 100px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,.45);
+    // filter: blur(7px);
+
 }
 
-img {
+.headshot {
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
 
-img:hover {
+.headshot:hover {
     width: 100px;
 }
 

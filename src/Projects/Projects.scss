@@ -3,22 +3,66 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  // padding: 24px 8px 8px 4px;
-  // background-color: black;
+}
+
+a {
+  color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 0;
 }
 
 article {
   font-size: 20px;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.project {
+  align-items: center;
+  box-shadow: 3px 3px 10px rgba(0,0,0,.45);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
-  min-width: 300px;
-  margin: 40px;
+  border-radius: 20px;
+  display: flex;
+  filter: blur(20%);
+  flex-direction: column;
+  font-size: 20px;
+  height: 300px;
+  justify-content: space-evenly;
+  margin: 8px;
+  padding: 0 20px 0 20px;
+  text-shadow: 1px;
+  width: 400px;
+  color: rgba(0, 0, 0, 0);
+  &:hover {
+      background: white;
+      color: black;
+  }
+}
+
+// .project:hover {
+//   background: white;
+//   color: black;
+// }
+
+.project:hover a {
+  color: black;
+}
+
+a:hover {
+  color: grey;
 }
 
 .project-1 {
   background-image: url('../images/adoptr-image.png');
-  height: 400px;
 }
 
 .project-2 {
@@ -31,4 +75,12 @@ article {
 
 .project-4 {
   background-image: url('../images/swapibox-image.png');
+}
+
+.project-picture {
+  max-width: 400px;
+}
+
+.fa-github {
+  // font-size: 40px;
 }
