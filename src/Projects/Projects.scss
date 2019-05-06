@@ -6,7 +6,7 @@
 }
 
 a {
-  color: black;
+  color: rgba(0, 0, 0, 0);
   text-decoration: none;
 }
 
@@ -19,24 +19,46 @@ article {
   font-size: 20px;
 }
 
-.project:hover {
-  background: unset;
-  box-shadow: 3px 3px 10px rgba(0,0,0,.45);
-  filter: blur(1px);
+li {
+  list-style: none;
+  font-size: 16px;
 }
 
 .project {
+  align-items: center;
+  box-shadow: 3px 3px 10px rgba(0,0,0,.45);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
+  display: flex;
   filter: blur(20%);
+  flex-direction: column;
   font-size: 20px;
-  height: 200px;
-  min-width: 400px;
-  margin: 8px;
   height: 300px;
+  justify-content: space-evenly;
+  margin: 8px;
+  padding: 0 20px 0 20px;
   text-shadow: 1px;
+  width: 400px;
+  color: rgba(0, 0, 0, 0);
+  &:hover {
+      background: white;
+      color: black;
+  }
+}
+
+// .project:hover {
+//   background: white;
+//   color: black;
+// }
+
+.project:hover a {
+  color: black;
+}
+
+a:hover {
+  color: grey;
 }
 
 .project-1 {
