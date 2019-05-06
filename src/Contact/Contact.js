@@ -11,8 +11,8 @@ class Contact extends Component {
                   <p> Cole Vanacore </p>
                 </div>
                 <div>
-                  <a href="https://www.linkedin.com/in/cole-vanacore/"> LinkedIn </a>
-                  <a href="https://www.github.com/colev1"> GitHub </a>
+                  <a href="https://www.linkedin.com/in/cole-vanacore/"> <i className="fab fa-linkedin"></i> </a>
+                  <a href="https://www.github.com/colev1"> <i className="fab fa-github"></i>  </a>
                 </div>
             </div>
         )
