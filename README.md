@@ -2,9 +2,10 @@
 
 ## Description
 
-A one page portfolio application that displays some of my past projects and contact information.
+A single-page application that displays some of my previous projects that I completed, as well as my links for my GitHub, LinkedIn, and some contact information.
 
 ## Tech Stack
 - React
 - Sass
+- Router
 
