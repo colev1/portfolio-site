@@ -9,7 +9,7 @@ class Projects extends Component {
     render() {
         return (
           <div>
-            <h2> past work </h2>
+            <h2> check out some of my work! </h2>
             <div className="projects-container">
               <article>
                   <h3>  AdoptR </h3>
