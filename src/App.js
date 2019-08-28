@@ -4,7 +4,6 @@ import Home from './Home/Home';
 import Projects from './Projects/Projects';
 import About from './About/About';
 import Contact from './Contact/Contact';
-import { Switch, Route, NavLink } from 'react-router-dom';
 
 
 class App extends Component {
