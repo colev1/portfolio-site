@@ -42,6 +42,10 @@ article {
       background: white;
       color: black;
   }
+  @media (max-width: 600px) {
+    // text-align: center;
+    width: 75%;
+  }
 }
 
 .project:hover a {
