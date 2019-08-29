@@ -47,7 +47,7 @@ class Projects extends Component {
                 <div className="project project-4">
                 <li> An application that utilizes the Star Wars API by creating fetch calls to different Start Wars themed characters and objects, and rendering them on the page using React.</li>
                 <li>  React.js, React Router, CSS, Enzyme </li>
-                  <a href="https://github.com/colev1/swapi-box"> 
+                  <a href="https://github.com/colev1/swapibox"> 
                     <i class="fab fa-github"></i> github repo 
                   </a>
                 </div>
