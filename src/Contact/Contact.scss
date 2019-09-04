@@ -1,5 +1,6 @@
 .contact-container {
   display: flex;
+  flex-direction: column;
   height: 100%;
   justify-content: space-between;
   align-items: center;
@@ -7,9 +8,19 @@
   font-size: 20px;
 }
 
+.name {
+  font-size: 60px;
+}
+
+
+hr {
+  border: 1px solid black;
+  width: 60%;
+}
+
 .headshot {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   margin: 10px;
 }

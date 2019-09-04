@@ -4,7 +4,7 @@ import React from 'react';
 const Projects = () => {
         return (
           <div>
-            <h2> past work </h2>
+            <h3> projects: </h3>
             <div className="projects-container">
               <article>
                   <h3>  AdoptR </h3>
