@@ -1,8 +1,7 @@
 import './Projects.scss'
-import React, {Component} from 'react';
+import React from 'react';
 
-class Projects extends Component {
-    render() {
+const Projects = () => {
         return (
           <div>
             <h2> past work </h2>
@@ -50,8 +49,7 @@ class Projects extends Component {
               </article>
             </div>
           </div>
-        )
-    }
+    )
 }
 
 export default Projects;
