@@ -7,7 +7,7 @@ class Contact extends Component {
         return (
             <div className="contact-container">
                 <div className="headshot-container">
-                  <img src={headshot} className="headshot"/>                    
+                  <img src={headshot} alt="Headshot" className="headshot"/>                    
                   <p> Cole Vanacore </p>
                 </div>
                 <div>

@@ -1,9 +1,5 @@
 import './Projects.scss'
 import React, {Component} from 'react';
-import movietracker from '../images/movietracker-image.png';
-import adoptr from '../images/adoptr-image.png';
-import palette from '../images/palette-image.png';
-import swapibox from '../images/swapibox-image.png';
 
 class Projects extends Component {
     render() {
@@ -17,7 +13,7 @@ class Projects extends Component {
                     <li> Application that allows users to view and swipe through adoptable pets based on their location, email shelters, and text friends about each pet. </li>
                     <li> React Native, Enzyme, Jest, XCode </li>
                     <a href="https://github.com/colev1/cross-poll-fe">
-                      <i class="fab fa-github"></i> github repo
+                      <i className="fab fa-github"></i> github repo
                     </a>
                   </div>
               </article>
@@ -27,7 +23,7 @@ class Projects extends Component {
                   <li> An application that allows a user to randomly generate a 'palette' of 5 colors, and then save separate palettes to different project folders. </li>
                     <li> Javascript/JQuery, Node.js, Express </li>
                   <a href="https://github.com/colev1/palette-picker">
-                    <i class="fab fa-github"></i> 
+                    <i className="fab fa-github"></i> 
                     github repo 
                   </a>
                 </div>
@@ -38,7 +34,7 @@ class Projects extends Component {
                   <li> Application created utilizing the Movie DB API to create a personalized movie application allowing users to create accounts, favorite movies, and search for movies.</li>
                   <li> React Redux, Router, Thunk Middleware, Jest, Enzyme</li>
                   <a href="https://github.com/colev1/movie-tracker"> 
-                    <i class="fab fa-github"></i> github repo 
+                    <i className="fab fa-github"></i> github repo 
                   </a>
                 </div>
               </article>
@@ -48,7 +44,7 @@ class Projects extends Component {
                 <li> An application that utilizes the Star Wars API by creating fetch calls to different Start Wars themed characters and objects, and rendering them on the page using React.</li>
                 <li>  React.js, React Router, CSS, Enzyme </li>
                   <a href="https://github.com/colev1/swapibox"> 
-                    <i class="fab fa-github"></i> github repo 
+                    <i className="fab fa-github"></i> github repo 
                   </a>
                 </div>
               </article>
