@@ -1,37 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.scss';
-import Home from './Home/Home';
 import Projects from './Projects/Projects';
-import About from './About/About';
 import Contact from './Contact/Contact';
 
 
-class App extends Component {
-  constructor() {
-    super()
-  }
-
-  render() {
+const App = () => {
     return (
       <div className="App">
-        {/* <nav className="nav-bar"> */}
-          {/* <NavLink to='/about' className='about'> About Me </NavLink>
-          <NavLink to='/projects' className='projects'> Projects </NavLink>
-          <NavLink to='/contact' className='contact'> Contact Info </NavLink> */}
-        {/* </nav> */}
-        {/* <Switch> */}
-          {/* <Route exact path='/' component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/contact' component={Contact} />
-          <Route path='/projects' component={Projects} /> */}
-        {/* </Switch> */}
-        {/* <Home /> */}
-        {/* <About /> */}
         <Contact />
         <Projects />
       </div>
     );
-  }
 }
 
 export default App;
