@@ -7,5 +7,3 @@ A single-page application that displays some of my previous projects that I comp
 ## Tech Stack
 - React
 - Sass
-- Router
-
